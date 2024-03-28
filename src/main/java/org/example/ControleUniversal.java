@@ -4,7 +4,6 @@ package org.example;
 public class ControleUniversal implements Controle {
     protected Dispositivo dispositivo;
 
-
     @Override
     public void power() {
         if (dispositivo.estaAtivado()) {

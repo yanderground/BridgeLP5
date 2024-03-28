@@ -13,6 +13,6 @@ public interface Dispositivo {
 
     int getCanal();
 
-    void setCanal(int channel);
+    void setCanal(int canal);
 
 }

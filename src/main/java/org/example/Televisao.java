@@ -3,7 +3,7 @@ package org.example;
 public class Televisao implements Dispositivo {
     private boolean on = false;
     private int volume = 30;
-    private int channel = 1;
+    private int canal = 1;
 
     @Override
     public boolean estaAtivado() {
@@ -38,11 +38,11 @@ public class Televisao implements Dispositivo {
 
     @Override
     public int getCanal() {
-        return channel;
+        return canal;
     }
 
     @Override
-    public void setCanal(int channel) {
-        this.channel = channel;
+    public void setCanal(int canal) {
+        this.canal = canal;
     }
 }
